@@ -22,6 +22,7 @@ public class Persona {
 	public String getDNI() {
 		return DNI;
 	}
+	
 	@Override
 	public int hashCode() {
 		return Objects.hash(DNI);
